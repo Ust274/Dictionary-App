@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,112,255,1) 100%);
+}
+
+#btn{
+   font-size: 2rem;
+   border-radius: 25px;
+   width: 55px;
+   cursor: pointer;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+   background: rgb(34,193,195);
+   background: linear-gradient(0deg, rgba(34,193,195,1) 49%, rgba(253,187,45,1) 100%);
+}
+
+#txt-input{
+    font-size: 1.8rem;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    position:relative;
+    width: 295px;
+    cursor: pointer;
+}
+
+
+
+#mainbox{
+    height: 480px;
+    width: 360px;
+    background-color: black;
+    border-radius:25px ;
+    text-align: center;
+    justify-content: center;
+
+}
+#display-box{
+    height: 400px;
+    width: 350px;
+    margin-top: 15px;
+    padding: 20px 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 11%, rgba(9,9,111,1) 28%, rgba(0,190,255,1) 76%);
+    border-radius: 20px;
+    margin-left: 5px;
+    color: white;
+
+}
+
+.word{
+    font-size: 3rem;
+    text-align: left;
+}
+
+.des{
+    text-align: left;
+    margin-bottom: 8px;
+}
+.sound{
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    align-self: right;
+}
+.ahh{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.syno{
+    font-size: 1.2rem;
+}
+
+#btn:hover{
+    font-size: 2.1rem;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(41,64,91,1) 100%);
+}
+.sound:hover{
+    font-size: 1.75rem;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(41,64,91,1) 100%);
+}
+/* Basic styling for the audio element */
+.audio {
+    margin-top: 30px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background: rgb(240,240,240);
+    background: radial-gradient(circle, rgba(240,240,240,1) 0%, rgba(41,64,91,1) 71%);
+    padding: 12px; /* Padding around the controls */
+}
+
